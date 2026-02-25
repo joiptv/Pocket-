@@ -33,7 +33,7 @@ jobs:
           import re
           import sys
 
-          FILE_NAME = "Pocket"
+          FILE_NAME = "Pocket-"
           JIO_SOURCE = "https://xyz.07live.workers.dev/playlist.m3u?user=gana-sunega&pass=krish-ka"
           ZEE_SOURCE = "https://pocket-tv-tamil-5afe35.gitlab.io/jiostar.m3u"
           
