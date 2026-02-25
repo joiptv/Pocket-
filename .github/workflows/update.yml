@@ -33,7 +33,7 @@ jobs:
           import re
           import sys
 
-          FILE_NAME = "joiptv/Pocket-"
+          FILE_NAME = "Pocket"
           JIO_SOURCE = "https://xyz.07live.workers.dev/playlist.m3u?user=gana-sunega&pass=krish-ka"
           ZEE_SOURCE = "https://pocket-tv-tamil-5afe35.gitlab.io/jiostar.m3u"
           
@@ -151,7 +151,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add joiptv/Pocket-
+          git add Pocket-
           if git diff --cached --quiet; then
             echo "➡️ No changes detected (Tokens are the same)"
             exit 0
